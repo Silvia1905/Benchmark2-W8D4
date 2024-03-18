@@ -1,0 +1,247 @@
+/*GENERALE*/
+body{
+    background-image: url("/assets/img/sfondo.png")
+}
+
+hr{
+    display: none;
+}
+
+/* HEADER */
+header{
+    background-color: rgb(3,129,158);
+    margin: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    box-shadow: 0px 5px 5px black;
+}
+
+header div img{
+    width: 100%;
+}
+
+header div p{
+    font-family: poppins, sans-serif;
+    text-transform: uppercase;
+    color: white;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+header nav ul{
+    text-transform: uppercase;
+    text-align: center;
+}
+
+header nav a{
+    font-family: poppins, sans-serif;
+    color: white;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+header li{
+    display: inline;
+}
+
+header nav li a::before {
+    content: "\22c6\0020";
+}
+
+/* MAIN */
+main{
+    background-color: white;
+    font-family: poppins, sans-serif;
+    line-height: 25px;
+    margin: 10px;
+    padding: 15px;
+    box-shadow: 0px 5px 5px black;
+}
+
+/* ELEMENTI NEL MAIN - ARTICLE */
+main article h1{
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    font-weight: 700;
+    color: black;
+}
+
+h1 + p{
+    color: gray;
+    margin-bottom: 15px;
+}
+
+main article p .fas{
+    color: grey;
+}
+
+p + p{
+    margin-bottom: 15px;
+}
+
+main article p strong{
+    color: rgb(192,43,220);
+    font-weight: 1000;
+}
+
+main article ul{
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-bottom: 20px;
+}
+
+main article ul code{
+    background-color: rgb(227,227,227);
+    border-radius: 20%;
+}
+
+main article ol{
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+ol + p{
+    margin-bottom: 20px;
+}
+
+/* TABELLE */
+table{
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    margin-top: 15px;
+    width: 100%;
+}
+
+table caption{
+    font-weight: 700;
+    font-style: italic;
+    text-align: center;
+}
+
+th, td{
+    text-align: center;
+    border: 1px solid white;
+}
+
+th{
+    background-color: rgb(64, 64, 245);
+    color: white;
+}
+
+tbody tr:nth-child(odd){
+    background-color: rgb(197, 197, 197);
+}
+
+table + p a{
+    font-weight: 700;
+    color: rgb(22, 156, 201)
+}
+
+table + p{
+    margin-bottom: 20px;
+}
+
+iframe{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+/* FORM */
+section h2{
+    background-color: gray;
+    text-align: center;
+    width: 110px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: larger;
+    color: rgb(43, 42, 42);
+    box-shadow: 3px 3px 3px black;
+    margin-bottom: -25px;
+    margin-left: 30px;
+    position: relative;
+    z-index: 1;
+}
+
+section p{
+    background-color: rgb(197, 197, 197);
+    padding-top: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+section form{
+    background-color: rgb(197, 197, 197);
+    padding-bottom: 40px;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+fieldset input{
+   border-top-style: hidden;
+   border-right-style: hidden;
+   border-bottom-style: dotted;
+   border-left-style: hidden;
+}
+
+button{
+    background-color: rgb(64, 64, 245);
+    color: white;
+    border: 0px;
+}
+
+/* ELEMENTI NELL' ASIDE */
+aside h2{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.5em;
+    color: rgb(43, 42, 42) ;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+aside div{
+    background-color: rgb(197, 197, 197);
+    padding: 20px;
+}
+
+aside div a{
+    color: rgb(22, 156, 201);
+    font-weight: 1000;
+}
+
+aside div p + p{
+    text-align: right;
+}
+
+aside div a + p{
+    margin-bottom: 20px;
+}
+
+/* FOOTER */
+footer{
+    background-color: rgb(6,85,102);
+    text-align: center;
+    font-family: poppins, sans-serif;
+    color: white;
+    line-height: 25px;
+    margin: 10px;
+    padding: 15px;
+    box-shadow: 0px 5px 5px black;
+}
+
+footer p{
+    padding-bottom: 15px;
+}
+
+footer a{
+    font-weight: 1000;
+    color: rgb(192,43,220);
+}
